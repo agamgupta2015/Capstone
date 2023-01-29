@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.img {
+  margin: 25px;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn > button {
+  height: 30px;
+  border-radius: 5px;
+  border: 2px solid lightblue;
+}
+
+.btn > button:hover {
+  background-color: lightblue;
+  cursor: pointer;
+}
+
+.lock {
+  width: 220px;
+  height: 44px;
+  margin-left: 12px;
+  margin-top: 190%;
+  background: #445ee2;
+  border-radius: 5px;
+  border: 1px solid blue;
+}
+
+.lock:hover {
+  cursor: pointer;
+  background-color: lightblue;
+}
+
+.nav1 {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+  padding-left: 80%;
+}
+
+div.content {
+  margin-left: 250px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+.setting {
+  display: flex;
+  align-items: center;
+}
+
+.setting:hover {
+  cursor: pointer;
+}
+
+.logout:hover {
+  cursor: pointer;
+}
+
+.setting > img {
+  width: 40px;
+  height: 35px;
+  border-radius: 10px;
+}
+
+.logout > img {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.box {
+  box-sizing: border-box;
+  position: absolute;
+  width: 399.83px;
+  height: 305.56px;
+  left: 520px;
+  top: 97px;
+  background: #ffffff;
+  border: 1px solid #c8d6e5;
+  border-radius: 10px;
+}
+
+h4 {
+  position: absolute;
+  width: 200px;
+  height: 28px;
+  left: 81px;
+  top: 17%;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  color: #1e272e;
+}
+
+input[type="text"] {
+  width: 40px;
+  height: 40px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+}
+.input {
+  margin: 15px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 40%;
+}
+
+.box > button {
+  position: absolute;
+  width: 160px;
+  height: 44px;
+  left: 100px;
+  top: 70%;
+  color: blanchedalmond;
+  background-color: #142683;
+  border-radius: 5px;
+}
+
+.box > button:hover {
+  cursor: pointer;
+}
+
+.new > input {
+  display: flex;
+  width: 250px;
+  height: 30px;
+}
+
+.new {
+  margin: 30px 30px 0px 30px;
+}
+
+.conf {
+  margin: 30px 30px 0px 30px;
+}
+
+h3 {
+  margin-left: 30px;
+}
+.conf > input {
+  display: flex;
+  width: 250px;
+  height: 30px;
+}
